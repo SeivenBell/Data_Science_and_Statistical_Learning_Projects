@@ -1,0 +1,41 @@
+SYDE 522 Assignment 2 Summary:
+
+We plan to perform a regression task as we performed in lecture 6 with more weight on decision tree optimization. 
+
+1. Data Pre-processing (15 Marks):
+
+Read data and separate into test, train, and validation sets.
+Implement necessary pre-processing steps, addressing missing data and outliers.
+you can use shared notebook but make sure to change it if needed (data has some changes).
+
+2. Regression Tree Optimization (30 Marks):
+
+Apply regression tree and tune parameters to prevent overfitting.
+Implement post-pruning without Python libraries and compare it with results with pre-pruning and SKlearn post-pruning.
+Discuss the effectiveness of each method in this dataset.
+
+3. Comparison with Random Forest and SVR (25 Marks):
+
+Optimize parameters for Decision Trees (DTs), Random Forest, and Support Vector Regression (SVR).
+Compare results using sutable metrics.
+Discuss the strengths and weaknesses of each method.
+
+4. Classification Task (10 Marks):
+
+Add a threshold to the label column for a classification task.
+Assign classes: 20% lowest yield per hectare as "low" and 80% as "high."
+Apply SVM, DTs, and optimize parameters then compare them with suitable classification metrics.
+
+5. Regression Tree as a Classifier (20-30 Marks):
+
+Take the best regression tree from question 2.
+Evaluate it as a classification problem following question 4 criteria.
+Perform threshold analysis ( like ROC curve) to find the optimal threshold.
+Compare the tree with optimal threshold with DTs from question 4. When comparing the results with Decision Trees (DTs) from question 4, consider the scenario where the underlying data is originally regression-based, but the task at hand requires a binary classification of 'yes' and 'no.' Discuss the implications of using regression labels directly versus thresholding them for classification purposes. Provide detailed insights into why one approach may be preferred over the other
+
+Submission Requirements:
+
+Submit a PDF report.
+Include a Google Colab link at the top of the report.
+Ensure accessibility to the Colab link for everyone.
+Follow these steps, keeping the analysis clear and straightforward, to successfully complete SYDE 522 Assignment 2.
