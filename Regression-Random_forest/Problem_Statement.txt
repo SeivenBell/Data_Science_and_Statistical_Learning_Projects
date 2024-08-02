@@ -1,4 +1,4 @@
-SYDE 522 Assignment 2 Summary:
+Assignment 2 Summary:
 
 We plan to perform a regression task as we performed in lecture 6 with more weight on decision tree optimization. 
 
